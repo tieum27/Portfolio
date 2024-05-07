@@ -17,10 +17,10 @@ I went with simplicity and accessibility,this because I love the simplicity and 
 
 ## Run Locally
 
-- Run this command `git clone https://github.com/Kathalysth/portfolio.git`
-- Run `yarn add`
+- Run this command `https://github.com/tieum27/portfolio.git`
+- Run `yarn add` or `npm i`
 - Double check your ports ...that can usually cause errors :)
-- Run `yarn dev`
+- Run `yarn dev` or `npm run dev`
 - You are now in the dev environment and you can play around
 
 ## Tech Stack
