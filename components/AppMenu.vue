@@ -55,7 +55,7 @@ export default {
 </template>
 
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import './assets/css/_variables.scss';
 
 nav {

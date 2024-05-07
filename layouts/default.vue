@@ -57,4 +57,10 @@ export default {
 </template>
 
 
-<style></style>
+<style scoped lang="scss">
+@media screen and (min-width: 992px) {
+  .container {
+    margin-left: 100px;
+  }
+}
+</style>

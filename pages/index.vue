@@ -28,7 +28,7 @@ export default {
   </main>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
 .tab-content > .page {
   display: none;
   opacity: 0;

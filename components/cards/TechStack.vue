@@ -9,6 +9,7 @@ export default {
   },
 };
 </script>
+
 <template>
   <div
     class="techStack-card"

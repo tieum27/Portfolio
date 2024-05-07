@@ -30,31 +30,31 @@ export default {
       ],
       techStack: [
         {
-          name: "ruby",
+          name: "ruby logo",
           logo: rubyLogo,
         },
         {
-          name: "rails",
+          name: "rails logo",
           logo: railsLogo,
         },
         {
-          name: "vue",
+          name: "vue logo",
           logo: vueLogo,
         },
         {
-          name: "javascript",
+          name: "javascript logo",
           logo: jsLogo,
         },
         {
-          name: "node",
+          name: "node log",
           logo: nodejsLogo,
         },
         {
-          name: "html",
+          name: "html 5 logo",
           logo: htmlLogo,
         },
         {
-          name: "css",
+          name: "css 3 logo",
           logo: cssLogo,
         },
       ],
@@ -173,7 +173,7 @@ export default {
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .aboutpage {
   section {
     & > .flex:not(:first-child) {

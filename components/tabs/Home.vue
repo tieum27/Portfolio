@@ -46,7 +46,7 @@ export default {
   </div>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
 @import './assets/css/_variables.scss';
 
 .homepage {
@@ -101,8 +101,8 @@ export default {
     }
     .portrait {
       display: none;
-      height: 400px;
-      width: 400px;
+      height: 200px;
+      width: 200px;
       right: 20px;
       position: fixed;
       border-radius: 50%;

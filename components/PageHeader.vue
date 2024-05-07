@@ -15,7 +15,7 @@ export default {
   </div>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
 @import './assets/css/_variables.scss';
 
 .page {
