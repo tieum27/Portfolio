@@ -1,3 +1,11 @@
+<script>
+export default {
+  name: "PortfolioDetail",
+  props: ["details"],
+  components: {},
+};
+</script>
+
 <template>
   <div class="modal portfolio-details" @click="$emit('close-modal')">
     <div
@@ -65,10 +73,3 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "PortfolioDetail",
-  props: ["details"],
-  components: {},
-};
-</script>

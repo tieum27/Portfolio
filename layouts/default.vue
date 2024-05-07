@@ -1,23 +1,3 @@
-<template>
-  <div class="container">
-    <div class="content">
-      <AppMenu :setActivePage="setActivePage" :activePage="activePage" />
-      <NuxtChild
-        :activePage="activePage"
-        :setShowModal="setShowModal"
-        :setPortfolioDetails="setPortfolioDetails"
-      />
-    </div>
-    <Modal v-show="showModal" @close-modal="showModal = false" />
-    <PortfolioDetails
-      :details="details"
-      v-show="openPortfolio"
-      @close-modal="openPortfolio = false"
-    />
-    <AppFooter />
-  </div>
-</template>
-
 <script>
 import AppMenu from "../components/AppMenu.vue";
 import AppFooter from "../components/AppFooter.vue";
@@ -55,5 +35,26 @@ export default {
   },
 };
 </script>
+
+<template>
+  <div class="container">
+    <div class="content">
+      <AppMenu :setActivePage="setActivePage" :activePage="activePage" />
+      <NuxtChild
+        :activePage="activePage"
+        :setShowModal="setShowModal"
+        :setPortfolioDetails="setPortfolioDetails"
+      />
+    </div>
+    <Modal v-show="showModal" @close-modal="showModal = false" />
+    <PortfolioDetails
+      :details="details"
+      v-show="openPortfolio"
+      @close-modal="openPortfolio = false"
+    />
+    <AppFooter />
+  </div>
+</template>
+
 
 <style></style>

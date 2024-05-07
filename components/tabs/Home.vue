@@ -1,4 +1,10 @@
-<!-- Please remove this file from your project -->
+<script>
+export default {
+  name: "HomePage",
+  props: ["isActive", "setShowModal"],
+};
+</script>
+
 <template>
   <div
     class="page homepage fade"
@@ -16,18 +22,17 @@
               :src="require('@/assets/my-portrait.jpg')"
             />
             <h1>
-              Chris Ehigimetor.
+              Matthieu Tripoli.
               <span>Frontend Developer</span>
             </h1>
             <p>
-              I'm a Javascript Developer that focuses on front-end frameworks
-              such as React, Vue, NuxtJS and NextJS. I have a passion for Design
-              Systems, Web Accessibility, Open Source Contribution, and System
-              Integration. To grow I focus on contributing to open source
-              projects.
+              Bilingual (French/English) full stack developer with experience in team management, 
+              project management, and staff training. Passionate about streamlining processes and 
+              increasing efficiency within teams. Enjoys the detective work of finding the problem in a mountain of code. 
+              One who embraces challenging environments and complex problem solving.
             </p>
             <button class="button" @click="setShowModal">
-              <span class="btn-text">See More</span>
+              <span class="btn-text">See more</span>
               <font-awesome-icon
                 :icon="['fas', 'arrow-right']"
                 class="btn-icon"
@@ -41,9 +46,3 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "HomePage",
-  props: ["isActive", "setShowModal"],
-};
-</script>

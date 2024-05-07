@@ -1,3 +1,10 @@
+<script>
+export default {
+  name: "PageHeader",
+  props: ["title", "secondaryTitle"],
+};
+</script>
+
 <template>
   <div class="page-title">
     <h1 class="page-title-main">
@@ -7,9 +14,3 @@
     <div class="page-title-secondary">{{ secondaryTitle }}</div>
   </div>
 </template>
-<script>
-export default {
-  name: "PageHeader",
-  props: ["title", "secondaryTitle"],
-};
-</script>

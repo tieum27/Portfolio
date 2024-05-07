@@ -1,3 +1,13 @@
+<script>
+import About from "./tabs/About.vue";
+export default {
+  name: "AppModal",
+  components: {
+    About,
+  },
+};
+</script>
+
 <template>
   <div class="modal portfolio-details" @click="$emit('close-modal')">
     <div
@@ -14,12 +24,3 @@
   </div>
 </template>
 
-<script>
-import About from "./tabs/About.vue";
-export default {
-  name: "AppModal",
-  components: {
-    About,
-  },
-};
-</script>
