@@ -3,13 +3,13 @@
 export const state = () => ({
   repos: [
     {
-    name:"Invoicing Web Application",
-    description:"An Invoicing application built with Reactjs and Nodejs. it allows contractors submit work related invoices to a backend server for validation and approval.",
-    image:"",
-    client:"Employers",
-    tools:["React", "NodeJS", "MongoDB", "LDAP", "AD"],
-    dateCompleted:"2022-04-15",
-    website:"Internally Consumed"
+    name:"Coupe du Monde F.I.N.A 2001",
+    description:"Site evenementiel de Natation Course organise par la Federation Francaise de Natation",
+    image:"affiche_paris_swc_2001.jpg",
+    client:"F.F.N",
+    tools:["PHP", "Javascript", "Dreamweaver"],
+    dateCompleted:"28/01/2001",
+    website:"https://ffn-paris-cup-2001.s3.amazonaws.com/index.html"
   },
     {
     name:"Student Information Management System (PWA) ",
@@ -21,13 +21,13 @@ export const state = () => ({
     website:""
   },
     {
-    name:"Portfolio Website",
-    description:"Built a Vuejs web-app with NuxtJS that showcases my portfolio, skills, experiences and a quick and easy way to reach out to me.",
-    image:"",
+    name:"Battleship",
+    description:"Construit un jeu de battaille naval ",
+    image:"battleship.jpg",
     client:"Self",
-    tools:["Vue", "NuxtJs", "Sass"],
-    dateCompleted:"2022-05-01",
-    website:"https://kathalysth.github.io/portfolio/"
+    tools:["Javascript", "css"],
+    dateCompleted:"10/11/2017",
+    website:"https://learn-battleship.s3.amazonaws.com/index.html?"
   },
     {
     name:"Intern Management Application",

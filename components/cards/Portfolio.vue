@@ -7,7 +7,7 @@ export default {
 
 <template>
   <figure class="portfolio-card">
-    <img :src="require('@/assets/' + avatar)" />
+    <img :src="avatar ? require('@/assets/img/' + avatar) : require('@/assets/portfolio-card.jpg')" />
     <div class="content-title">
       <div>
         <h6>{{ title }}</h6>

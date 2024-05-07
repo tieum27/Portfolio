@@ -1,3 +1,23 @@
+<script>
+import PortfolioCard from "../cards/Portfolio.vue";
+import PageHeader from "../PageHeader.vue";
+import { mapState } from "vuex";
+
+export default {
+  name: "PortfolioPage",
+  props: ["isActive", "setPortfolioDetails"],
+  components: { PortfolioCard, PageHeader },
+  data() {
+    return {
+      image: "portfolio-card.jpg",
+    };
+  },
+  computed: {
+    ...mapState(["repos"]),
+  },
+};
+</script>
+
 <template>
   <div
     class="page portfoliopage"
@@ -18,7 +38,7 @@
                 @click="setPortfolioDetails(repo)"
               >
                 <PortfolioCard
-                  :avatar="image"
+                  :avatar="repo.image"
                   :title="repo.name"
                   :description="repo.description"
                 />
@@ -31,22 +51,3 @@
   </div>
 </template>
 
-<script>
-import PortfolioCard from "../cards/Portfolio.vue";
-import PageHeader from "../PageHeader.vue";
-import { mapState } from "vuex";
-
-export default {
-  name: "PortfolioPage",
-  props: ["isActive", "setPortfolioDetails"],
-  components: { PortfolioCard, PageHeader },
-  data() {
-    return {
-      image: "portfolio-card.jpg",
-    };
-  },
-  computed: {
-    ...mapState(["repos"]),
-  },
-};
-</script>

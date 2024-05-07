@@ -19,7 +19,7 @@ export default {
           <div>
             <img
               class="img-mobile"
-              :src="require('@/assets/my-portrait.jpg')"
+              :src="require('@/assets/img/my-portrait.jpg')"
             />
             <h1>
               Matthieu Tripoli.
@@ -109,7 +109,7 @@ export default {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: top;
-      background-image: url("@/assets/my-portrait.jpg");
+      background-image: url("@/assets/img/my-portrait.jpg");
     }
   }
 }

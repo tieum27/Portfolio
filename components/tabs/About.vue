@@ -82,7 +82,7 @@ export default {
             </div>
             <img
               class="img-mobile"
-              :src="require('@/assets/my-portrait.jpg')"
+              :src="require('@/assets/img/my-portrait.jpg')"
             />
             <div class="personal-info">
               <ul>
