@@ -61,4 +61,17 @@ export default {
     }
   }
 }
+
+@media screen and (max-width: 991px) {
+  .page-title {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    h1 {
+      font-size: 35px !important;
+    }
+    .page-title-secondary {
+      font-size: 45px !important;
+    }
+  }
+}
 </style>

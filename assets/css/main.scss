@@ -180,12 +180,6 @@ img {
   text-align: center !important;
 }
 
-
-
-// // nav - AppMenue.vue //
-
-
-
 // page layout
 .img-mobile {
   display: none;
@@ -199,58 +193,6 @@ img {
   margin-right: auto;
   margin-left: auto;
 }
-
-// About.vue //
-// .aboutpage {
-//   section {
-//     & > .flex:not(:first-child) {
-//       margin-bottom: 20px;
-//       margin-top: 40px;
-//     }
-//     .personal-info ul {
-//       display: flex;
-//       flex-direction: column;
-//       align-items: flex-start;
-//       padding: 0 0.3rem;
-//       li {
-//         flex: 0 0 50%;
-//         padding-bottom: 20px;
-//       }
-//     }
-//     .label {
-//       opacity: 0.8;
-//     }
-//     .label::after {
-//       content: ":";
-//     }
-
-//     .label-value {
-//       font-weight: 600;
-//     }
-//     .label,
-//     .label-value {
-//       padding: 4px 6px;
-//       text-transform: capitalize;
-//     }
-
-//     .techStack-section {
-//       display: flex;
-//       width: 100%;
-//       justify-content: center;
-//     }
-//   }
-//   .techStack-wrapper {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     width: 100%;
-//   }
-//   .techStack-list {
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: center;
-//   }
-// }
 
 // Portfolio.vue //
 // .portfoliopage {
@@ -266,8 +208,6 @@ img {
 //     }
 //   }
 // }
-
-// Contact.vue
 
 section {
   padding-left: 15px;
@@ -485,11 +425,7 @@ section {
     max-width: 800px;
   }
 }
-// @media (min-width: 1201px) {
-//   .about.modal-dialog {
-//     max-width: 1140px;
-//   }
-// }
+
 // @media screen and (min-width: 1300px) {
 //   .portfoliopage {
 //     .projects-list {
@@ -577,25 +513,7 @@ section {
 //           align-self: center !important;
 //         }
 //       }
-//       .portrait {
-//         display: none;
-//       }
 //     }
-//   }
-
-//   .page-title {
-//     padding-left: 15px !important;
-//     padding-right: 15px !important;
-//     h1 {
-//       font-size: 35px !important;
-//     }
-//     .page-title-secondary {
-//       font-size: 45px !important;
-//     }
-//   }
-
-//   .aboutpage .experiences {
-//     display: unset !important;
 //   }
 
 //   .portfoliopage {

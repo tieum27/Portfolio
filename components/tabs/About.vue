@@ -174,9 +174,65 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.aboutpage {
+  section {
+    & > .flex:not(:first-child) {
+      margin-bottom: 20px;
+      margin-top: 40px;
+    }
+    .personal-info ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0 0.3rem;
+      li {
+        flex: 0 0 50%;
+        padding-bottom: 20px;
+      }
+    }
+    .label {
+      opacity: 0.8;
+    }
+    .label::after {
+      content: ":";
+    }
+
+    .label-value {
+      font-weight: 600;
+    }
+    .label,
+    .label-value {
+      padding: 4px 6px;
+      text-transform: capitalize;
+    }
+
+    .techStack-section {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+    }
+  }
+  .techStack-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .techStack-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .skill-section {
     ul {
       list-style: disc;
     }
   }
+}
+
+@media (min-width: 1201px) {
+  .about.modal-dialog {
+    max-width: 1140px;
+  }
+}
 </style>
